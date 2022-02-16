@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    height: 100%;
+    width: 1200px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    padding: 20px;
+}
+
+.product-item {
+    background-color: beige;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.buy-btn{
+  background-color: aquamarine;
+}
+
+.btn-cart{
+  background-color:darkseagreen;
+  margin: 20px;
+}
+
+header{
+  background-color: azure;
+}
+
+main{
+  background-color: darkgray;
+}
+
