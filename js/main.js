@@ -23,7 +23,7 @@ const renderPage = list => {
     // let productArr = '';
     // for (let i = 1; i < productsList.length; i++){
     //    productArr += productsList[0].concat(productsList[i]);
-    // };
+    // }; 
     // console.log (productArr);
     console.log(productsList);
     document.querySelector('.products').innerHTML = productsList; // productArr
